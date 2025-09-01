@@ -1,0 +1,12 @@
+{
+  "name": "UI Generator Chat Interface",
+  "id": "org.kixlab.ui-generator-chat-interface",
+  "api": "1.0.0",
+  "main": "coordinator.js",
+  "ui": "index.html",
+  "editorType": ["figma"],
+  "networkAccess": {
+    "allowedDomains": ["none"],
+    "devAllowedDomains": ["http://localhost:4000"]
+  }
+}

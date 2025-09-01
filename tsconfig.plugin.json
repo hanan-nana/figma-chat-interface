@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "types": ["@figma/plugin-typings"],
+    "target": "ES6",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "outDir": "dist",
+    "rootDir": "plugin"
+  },
+  "include": ["plugin/**/*.ts", "plugin/**/*.tsx"],
+  "exclude": ["dist"]
+}
