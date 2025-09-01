@@ -1,5 +1,4 @@
-// 메인 스레드: Figma 문서 접근, UI 표시/메시징
-figma.showUI(__html__, { width: 800, height: 1200 }); // manifest.ui 로부터 생성된 __html__ 사용
+figma.showUI(__html__, { width: 640, height: 800 });
 
 // UI → 메인 메시지 처리
 figma.ui.onmessage = async (msg) => {
